@@ -13,6 +13,9 @@
 		CE306FFE19D9D9B600C47297 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE306FFD19D9D9B600C47297 /* Images.xcassets */; };
 		CE30700119D9D9B600C47297 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE306FFF19D9D9B600C47297 /* LaunchScreen.xib */; };
 		CE30700D19D9D9B600C47297 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30700C19D9D9B600C47297 /* SlotMachineTests.swift */; };
+		CE30701719DA0C2700C47297 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30701619DA0C2700C47297 /* Slot.swift */; };
+		CE30701919DA10A800C47297 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30701819DA10A800C47297 /* Factory.swift */; };
+		CE30701B19DAEFEB00C47297 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30701A19DAEFEB00C47297 /* SlotBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		CE30700619D9D9B600C47297 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE30700B19D9D9B600C47297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE30700C19D9D9B600C47297 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		CE30701619DA0C2700C47297 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		CE30701819DA10A800C47297 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CE30701A19DAEFEB00C47297 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				CE306FF619D9D9B600C47297 /* AppDelegate.swift */,
 				CE306FF819D9D9B600C47297 /* ViewController.swift */,
+				CE30701A19DAEFEB00C47297 /* SlotBrain.swift */,
+				CE30701819DA10A800C47297 /* Factory.swift */,
+				CE30701619DA0C2700C47297 /* Slot.swift */,
 				CE306FFA19D9D9B600C47297 /* Main.storyboard */,
 				CE306FFD19D9D9B600C47297 /* Images.xcassets */,
 				CE306FFF19D9D9B600C47297 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE30701919DA10A800C47297 /* Factory.swift in Sources */,
 				CE306FF919D9D9B600C47297 /* ViewController.swift in Sources */,
+				CE30701719DA0C2700C47297 /* Slot.swift in Sources */,
 				CE306FF719D9D9B600C47297 /* AppDelegate.swift in Sources */,
+				CE30701B19DAEFEB00C47297 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				CE30701219D9D9B600C47297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE30701319D9D9B600C47297 /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				CE30701519D9D9B600C47297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
